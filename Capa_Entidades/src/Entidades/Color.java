@@ -2,5 +2,15 @@ package Entidades;
 
 public class Color {
 
-	public String descripcion; 
+	//ATRIBUTOS
+		private String descripcion;
+		
+	//PROPIEDADES
+		public String getDescripcion() {
+			return descripcion;
+		}
+
+		public void setDescripcion(String descripcion) {
+			this.descripcion = descripcion;
+		}
 }
