@@ -19,4 +19,6 @@ public class Consumo {
 		public void setPrecio(double precio) {
 			this.precio = precio;
 		}
+		
+	//METODOS CONSTRUCTORES
 }

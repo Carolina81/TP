@@ -25,16 +25,24 @@ public class Electrodomestico {
 	//METODOS CONSTRUCTORES
 		public Electrodomestico()
 		{
-			
+			this.color = new Color();
+			this.consumo = new Consumo();			
 		}
 		
 		public Electrodomestico(double precio, double peso)
 		{
-			
+			this.color = new Color();
+			this.consumo = new Consumo();
+			this.peso = peso;
+			this.precioBase = precio;
 		}
 		
 		public Electrodomestico(Color color, double precio, Consumo consumo, double peso)
 		{
-			
+			this.precioBase = precio;
+			this.peso = peso;
+			this.color = new Color();
+			this.color = color.getDescripcion();
+			this.consumo = new Consumo();			
 		}
 }
