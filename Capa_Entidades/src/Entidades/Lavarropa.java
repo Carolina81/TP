@@ -25,5 +25,6 @@ public class Lavarropa extends Electrodomestico {
 		public Lavarropa(double carga, Color color, double precio, Consumo consumo, double peso)
 		{
 			super(Color color, double precio, Consumo consumo, double peso);
+			this.carga = carga;		
 		}
 }

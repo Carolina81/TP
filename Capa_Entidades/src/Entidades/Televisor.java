@@ -28,5 +28,7 @@ public class Televisor extends Electrodomestico {
 		public Televisor(int resolucion, boolean TDT, Color color, double precio, Consumo consumo, double peso)
 		{
 			super(Color color, double precio, Consumo consumo, double peso);
+			this.TDT = TDT;
+			this.resolucion = resolucion;
 		}
 }

@@ -13,4 +13,10 @@ public class Color {
 		public void setDescripcion(String descripcion) {
 			this.descripcion = descripcion;
 		}
+		
+	//METODOS CONSTRUCTORES
+		public Color ()
+		{
+			
+		}
 }
